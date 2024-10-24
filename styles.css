@@ -42,10 +42,10 @@ a {
 }
 
 a:hover {
-    color: grey;
+    color: orangered;
     text-decoration: underline;
     text-underline-offset: 0.5rem;
-    text-decoration-color: rgb(181, 181, 181);
+    text-decoration-color: black;
 }
 
 .logo {
@@ -157,14 +157,14 @@ section {
 }
 
 .btn-color-1, .btn-color-2 {
-    border: rgb(53, 53, 53) 0.1rem solid;
+    border: black 0.1rem solid;
 }
 
 .btn-color-1:hover, .btn-color-2:hover {
     cursor: pointer;
 }
 .btn-color-1, .btn-color-2:hover {
-    background: rgb(53, 53, 53);
+    background: black;
     color: white;
 
 }
@@ -266,9 +266,3 @@ article {
     gap: 0.5rem;
 }
 
-
-.arrow {
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
-}
