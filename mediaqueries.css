@@ -1,14 +1,16 @@
 @media screen and (max-width: 1400px) {
     #profile {
-        height: 83vh;
-        margin-bottom: 6rem;
+      height: 83vh;
+      margin-bottom: 6rem;
     }
-
     .about-containers {
-        flex-wrap: wrap;
+      flex-wrap: wrap;
     }
-}
-
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  }
 
 @media screen and (max-width: 1200px) {
     #desktop-nav {
@@ -28,7 +30,7 @@
     }
     .section__pic__container {
         width: 275px;
-        height: 75px;
+        height: 275px;
         margin: 0 auto 2rem;
     }
     .about-containers {
