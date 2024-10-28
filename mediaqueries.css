@@ -29,8 +29,8 @@
         margin: 0 5%;
     }
     .section__pic__container {
-        width: 275px;
-        height: 275px;
+        width: 175px;
+        height: 175px;
         margin: 0 auto 2rem;
     }
     .about-containers {
@@ -79,11 +79,34 @@
         gap: 0.5rem;
         text-align: center;
     }
-    .section__pic__container {
-        width: auto;
+    .section__pic-container {
         height: 46vw;
+        width: auto;
+        max-width: 100%;
         justify-content: center;
     }
+
+    .section__pic-container img {
+        max-height: 46vw;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+
+    .section__pic-container2 {
+        height: 46vw;
+        width: auto;
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .section__pic-container2 img {
+        max-height: 46vw;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+
     .section__text__p2 {
         font-size: 1.25rem;
     }
@@ -94,3 +117,4 @@
         text-align: justify;
     }
 }
+
